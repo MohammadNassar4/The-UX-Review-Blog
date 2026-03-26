@@ -1,0 +1,149 @@
+/* ?            xl                    */
+@media screen and (max-width:1200px) {
+  .container {
+    width: 970px;
+  }
+  
+  .about .content {
+    padding-left: 53px;
+  }
+  
+  .about .author-info div:first-child {
+    margin-right: 50px;
+  }
+  
+  .about .author-info p {
+    margin-bottom: 15px;
+  }
+}
+
+  /* ?            lg                    */
+  @media screen and (max-width:991px) {
+
+    .lg-50 {
+      width: 50%;
+    }
+
+    .container {
+      width: 750px;
+    }
+    
+    .margin-right {
+      margin-right: 16px;
+    }
+    
+  .about .profile {
+    width: 50%;
+    margin: 0;
+  }
+  
+  .about .content {
+    width: 50%;
+    padding-left: 15px;
+  }
+
+  .about .frame {
+    border: none;
+  }
+  
+  .about .img-wrapper {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .about .author-info div:first-child {
+    margin-right: 20px;
+  }
+  
+  .about .author-info p {
+    font-size: 14px;
+  }
+}
+
+/* ?            md                    */
+@media screen and (max-width:768px) {
+
+  .md-100 {
+    width: 100%;
+  }
+
+    .sec-title h2 {
+      font-size: 32px;
+    }
+  
+  .container {
+    width: 450px;
+  }
+  
+  .nav {
+    width: 100%;
+    clear: both;
+  }
+  
+  .nav ul {
+    background-color: #333333;
+    position: relative;
+    z-index: 10;
+  }
+
+  .nav ul li {
+    width: 100%;
+    clear: both;
+    text-align: center;
+    margin: 0;
+    padding: 12px 0;
+  }
+  
+  .fa-bars {
+    display: block;
+  }
+  
+  .hero-content span {
+    font-size: 22px;
+    line-height: 24px;
+  }
+  
+  .hero-content h1 {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+  }
+  
+  .about .profile {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  
+  .about .profile img {
+    width: 100%;
+  }
+  
+  .about .content {
+    width: 100%;
+  }
+
+  .about .author-info div {
+    width: 100%;
+  }
+  
+  .about .author-info p {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+}
+
+/* ?            sm                    */
+@media screen and (max-width:479px) {
+  .container {
+    width: 100%;
+  }
+}
