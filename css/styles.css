@@ -486,3 +486,82 @@ width: fit-content;
   font-weight: 600;
   line-height: 18px;
 }
+
+/* ?             testimonials section              */
+.testimonial {
+  padding-block: 100px;
+}
+
+.testimonial-card {
+  width: 750px;
+  padding: 40px;
+  background-color: #f2f2f2;
+  margin: auto;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonial-card:first-child {
+  margin-bottom: 40px;
+}
+
+.testimonial-card::before {
+  content: '';
+  width: 250px;
+  height: 250px;
+  background-color: #fc3f5f;
+  display: block;
+  transform: rotate(45deg);
+  position: absolute;
+  top: -125px;
+  left: -125px;
+}
+
+.testimonial-card .content {
+  position: relative;
+}
+
+.testimonial-card .user-img {
+  width: 110px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+}
+
+.testimonial-card .review {
+  padding-left: 130px;
+}
+
+.testimonial-card .user-name {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 29px;
+  margin-bottom: 10px;
+}
+
+.testimonial-card .country {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 17px;
+  color: #777777;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.testimonial-card .country i {
+  font-size: 12px;
+
+}
+.testimonial-card p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.testimonial-card .stars i {
+  color: #edc72f;
+  font-size: 14px;
+}

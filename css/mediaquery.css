@@ -15,10 +15,18 @@
   .about .author-info p {
     margin-bottom: 15px;
   }
+
+  .testimonial-card {
+    width: 617px;
+  }
 }
 
   /* ?            lg                    */
   @media screen and (max-width:991px) {
+
+    .lg-100 {
+      width: 100%;
+    }
 
     .lg-50 {
       width: 50%;
@@ -154,6 +162,19 @@
 
   .statistic .inner {
     margin-bottom: 30px;
+  }
+
+  .testimonial-card {
+    padding: 20px;
+  }
+
+  .testimonial-card .user-img {
+    position: static;
+    margin: 0 auto 42px;
+  }
+
+  .testimonial-card .review {
+    padding: 0;
   }
 }
 
