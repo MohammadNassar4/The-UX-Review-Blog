@@ -139,6 +139,22 @@
     font-size: 16px;
     margin-bottom: 25px;
   }
+
+  .project {
+    padding: 0;
+  }
+
+.statistics {
+  padding-block: 60px 30px;
+}
+
+.statistic {
+  overflow: hidden;
+}
+
+  .statistic .inner {
+    margin-bottom: 30px;
+  }
 }
 
 /* ?            sm                    */
