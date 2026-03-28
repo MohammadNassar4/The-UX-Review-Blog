@@ -167,6 +167,12 @@ body {
   padding: 20px 0;
 }
 
+.nav ul li:last-child {
+  visibility: hidden;
+  padding: 0;
+
+}
+
 .nav ul li a {
   font-size: 16px;
   font-weight: 300;
@@ -285,7 +291,7 @@ body {
   padding-left: 70px;
 }
 
-.about .content h3 {
+.about .content h2 {
   font-size: 34px;
   font-weight: 600;
   line-height: 22px;
@@ -294,7 +300,7 @@ body {
   margin-bottom: 25px;
 }
 
-.about .content h3::before {
+.about .content h2::before {
   content: '';
   background-color: #ff305b;
   height: 100%;
