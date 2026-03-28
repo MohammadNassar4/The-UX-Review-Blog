@@ -3,15 +3,15 @@
   .container {
     width: 970px;
   }
-  
+
   .about .content {
     padding-left: 53px;
   }
-  
+
   .about .author-info div:first-child {
     margin-right: 50px;
   }
-  
+
   .about .author-info p {
     margin-bottom: 15px;
   }
@@ -19,32 +19,44 @@
   .testimonial-card {
     width: 617px;
   }
+
+  .blog-card .blog-preview {
+    height: 159.13px;
+  }
+
+  .contact {
+    padding-block: 80px;
+  }
+
+  .contact form {
+    width: 650px;
+  }
 }
 
-  /* ?            lg                    */
-  @media screen and (max-width:991px) {
+/* ?            lg                    */
+@media screen and (max-width:991px) {
 
-    .lg-100 {
-      width: 100%;
-    }
+  .lg-100 {
+    width: 100%;
+  }
 
-    .lg-50 {
-      width: 50%;
-    }
+  .lg-50 {
+    width: 50%;
+  }
 
-    .container {
-      width: 750px;
-    }
-    
-    .margin-right {
-      margin-right: 16px;
-    }
-    
+  .container {
+    width: 750px;
+  }
+
+  .margin-right {
+    margin-right: 16px;
+  }
+
   .about .profile {
     width: 50%;
     margin: 0;
   }
-  
+
   .about .content {
     width: 50%;
     padding-left: 15px;
@@ -53,7 +65,7 @@
   .about .frame {
     border: none;
   }
-  
+
   .about .img-wrapper {
     position: relative;
     top: 0px;
@@ -61,15 +73,47 @@
     border-radius: 5px;
     overflow: hidden;
   }
-  
+
   .about .author-info div:first-child {
     margin-right: 20px;
   }
-  
+
   .about .author-info p {
     font-size: 14px;
   }
+
+  .blog-details {
+    padding: 12px;
+  }
+
+  .blog-details h3 {
+    font-size: 19px;
+    line-height: 21px;
+  }
+
+  .blog-card .blog-preview {
+    height: 117.94px;
+  }
+
+  .contact {
+    padding-block: 70px;
+  }
+
+  .contact form {
+    width: 720px;
+    padding: 0;
+  }
+
+  .contact form div {
+    padding-inline: 0px;
+  }
+
+  .contact form div:nth-child(1) {
+    padding-right: 30px;
+  }
+
 }
+
 
 /* ?            md                    */
 @media screen and (max-width:768px) {
@@ -78,19 +122,20 @@
     width: 100%;
   }
 
-    .sec-title h2 {
-      font-size: 32px;
-    }
-  
+  .sec-title h2 {
+    font-size: 32px;
+  }
+
   .container {
     width: 450px;
   }
-  
+
   .nav {
     width: 100%;
     clear: both;
+    display: none;
   }
-  
+
   .nav ul {
     background-color: #333333;
     position: relative;
@@ -104,37 +149,37 @@
     margin: 0;
     padding: 12px 0;
   }
-  
+
   .fa-bars {
     display: block;
   }
-  
+
   .hero-content span {
     font-size: 22px;
     line-height: 24px;
   }
-  
+
   .hero-content h1 {
     font-size: 38px;
     line-height: 42px;
   }
-  
+
   .hero-content p {
     font-size: 18px;
     line-height: 22px;
     font-weight: 600;
   }
-  
+
   .about .profile {
     width: 100%;
     padding: 0;
     margin-bottom: 30px;
   }
-  
+
   .about .profile img {
     width: 100%;
   }
-  
+
   .about .content {
     width: 100%;
   }
@@ -142,7 +187,7 @@
   .about .author-info div {
     width: 100%;
   }
-  
+
   .about .author-info p {
     font-size: 16px;
     margin-bottom: 25px;
@@ -152,13 +197,13 @@
     padding: 0;
   }
 
-.statistics {
-  padding-block: 60px 30px;
-}
+  .statistics {
+    padding-block: 60px 30px;
+  }
 
-.statistic {
-  overflow: hidden;
-}
+  .statistic {
+    overflow: hidden;
+  }
 
   .statistic .inner {
     margin-bottom: 30px;
@@ -176,11 +221,75 @@
   .testimonial-card .review {
     padding: 0;
   }
+
+  .blog-card {
+    padding: 0;
+  }
+
+  .blog-details {
+    padding: 20px;
+  }
+
+  .blog-details h3 {
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  .blog-card .blog-preview {
+    height: 235.9px;
+  }
+
+  .contact {
+    padding-block: 60px;
+  }
+
+  .contact form {
+    width: 100%;
+  }
+
+  .contact form div:nth-child(1),
+  .contact form div:nth-child(2) {
+    width: 100%;
+  }
+
+  .contact .contact-form {
+    padding: 0;
+  }
+
+  .contact form div:nth-child(1) {
+    padding-right: 0px;
+  }
+
+  .footer {
+    padding-block: 35px;
+  }
 }
 
 /* ?            sm                    */
 @media screen and (max-width:479px) {
   .container {
     width: 100%;
+  }
+
+  .about .content {
+    padding-left: 0;
+  }
+
+  .about .about-actions a {
+    padding: 8px 10px;
+  }
+
+  .services,
+  .portfolio,
+  .blog {
+    padding-block: 60px 30px;
+  }
+
+  .testimonial {
+    padding-block: 60px;
+  }
+
+  .blog-card .blog-preview {
+    height: auto;
   }
 }
