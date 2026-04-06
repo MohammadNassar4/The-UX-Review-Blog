@@ -159,7 +159,7 @@ body {
   display: none;
 }
 
-.fa-bars:hover + .nav {
+.hero .container .navbar #nav:target {
   display: block;
 }
 
